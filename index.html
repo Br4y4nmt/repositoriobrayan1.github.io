@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front end Developer</title>
+    <meta name="description" content="Desarrollador web">
+    <link rel="preload" href="normalize.css" as="style">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet" rel="stylesheet">
+    <link rel="preload" href="style.css" as="style">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="contenedor">
+    <header>
+        <div>
+            <div class="barra">
+                <a class='logo' href='/' id='inicio'>
+                    <picture>
+                        <source loading="lazy" srcset="./img/logo.webp" type="image/webp">
+                        <img loading="lazy" src="img/logo.png" alt="imagen de logo de la marca">
+                    </picture>
+                </a>
+                <div class="hamburguer-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="64" height="64" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 6l16 0" />
+                    <path d="M4 12l16 0" />
+                    <path d="M4 18l16 0" />
+                  </svg>
+                </div>
+                <nav class="navegacion">
+                    <a href="#inicio" class="navegacion_enlace">Inicio</a>
+                    <a href="#proyectos" class="navegacion_enlace">Proyectos</a>
+                    <a href="#habilidades" class="navegacion_enlace">Habilidades</a>
+                    <a href="#about" class="navegacion_enlace">Sobre mí</a>
+                    <a href="#contacto" class="navegacion_enlace">Contacto</a>
+
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="contenido-principal">
+            <div class="contenido-imagen">
+                <picture>
+                    <div class="imagen-principal"></div>
+                </picture>
+            </div>
+            <div class="contenido-about">
+                <section>
+                    <h1>Brayan Medina Tixe
+                        <br>
+                        <strong>Ingeniero en Sistemas</strong>
+                    </h1>
+                </section>
+                <div class="borde-decoration"></div>
+                <section>
+                    <p class="texto-about">
+                        Apasionado en todo lo que hago, dispuesto siempre a enfrentar desafíos, amante de todo lo que indique <em>Redes &nbsp</em> y <em>Programacion</em> &nbsp para lograr una verdadera inclusión. ¿Mi punto único? &nbsp
+                        La versatilidad: lo que me ha impulsado para adaptarme a los entornos de trabajo.
+                    </p>
+                </section>
+                <div class="borde-decoration_about"></div>
+                <div class="enlaces">
+                    <div class="contenedor-boton">
+                        <button class="boton-CV"><a download="CV-brayan1" href="doc/CV-brayan1.pdf">Descargar CV</a></button>
+                    </div>
+                    <div class="contenedor-redes">
+                        <a class="git" href="https://github.com/Br4y4nmt" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                      </svg>
+                </a>
+                        <a class="lk" href="https://www.linkedin.com/in/brayan-junior-medina-tixe-381aa12b1/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                        <path d="M8 11l0 5" />
+                        <path d="M8 8l0 .01" />
+                        <path d="M12 16l0 -5" />
+                        <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                      </svg>
+                </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <section class="projects" id="proyectos">
+            <h3>Proyectos</h3>
+            <p class="titulo-proyectos">
+                Todo lo que puedas <strong>imaginar</strong>, lo podrás <strong>programar</strong>
+            </p>
+            <div class="botones-filtro">
+                <ul>
+                    <li class="filter active" data-nombre="todos">Todos</li>
+                    <li class="filter" data-nombre="vanilla">Redes</li>
+                    <li class="filter" data-nombre="framework">Sistemas</li>
+                    
+                </ul>
+            </div>
+            <div class="galeria">
+                <div class="contenedor-projects framework">
+                    <a href="https://github.com/Br4y4nmt/sistemaventas1" target="_blank">
+                        <div class="imagen-projects">
+                            <picture>
+                                <source loading="lazy" srcset="./img/sistemaventas.webp" type="image/webp">
+                                <img loading="lazy" src="./img/sistemaventas.webp" alt="reproductor de musica relajante">
+                            </picture>
+                        </div>
+                        <div class="texto-projects">
+                            <h4>Sistema De Ventas</h4>
+                            <p class="description">sistema creado para cualquier tipo de tienda pequeña</p>
+                            <div class="iconos after">
+                                <picture>
+                                    <source loading="lazy" srcset="./img/html-5.webp" type="img/webp">
+                                    <img loading="lazy" src="./img/html-5.png" alt="icono HTML">
+                                    <source loading="lazy" srcset="./img/css-3.webp" type="img/webp">
+                                    <img loading="lazy" src="./img/css-3.png" alt="icono CSS">
+                                    <source loading="lazy" srcset="./img/java-script.webp" type="img/webp">
+                                    <img loading="lazy" src="./img/java-script.png" alt="icono JavaScript">
+                                    <source loading="lazy" srcset="./img/git.webp" type="img/webp">
+                                    <img loading="lazy" src="./img/git.png" alt="icono control de versiones Git">
+                                </picture>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="contenedor-projects vanilla">
+                    <a href="doc/betvictoria.pdf" target="_blank">
+                        <div class="imagen-projects">
+                            <picture>
+                                <source loading="lazy" srcset="./img/redes.webp" type="image/webp">
+                                <img loading="lazy" src="./img/redes.jpg" alt="landing de Tesla">
+                            </picture>
+                        </div>
+                        <div class="texto-projects">
+                            <h4>proyecto bet victoria</h4>
+                            <p class="description">bet victoria</p>
+                            <div class="iconos after">
+                                <picture>
+                                    <source loading="lazy" srcset="./img/html-5.webp" type="img/webp">
+                                    <img loading="lazy" src="./img/html-5.png" alt="icono HTML">
+                                    <source loading="lazy" srcset="./img/css-3.webp" type="img/webp">
+                                    <img loading="lazy" src="./img/css-3.png" alt="icono CSS">
+                                    <source loading="lazy" srcset="./img/java-script.webp" type="img/webp">
+                                    <img loading="lazy" src="./img/java-script.png" alt="icono JavaScript">
+                                    <source loading="lazy" srcset="./img/git.webp" type="img/webp">
+                                    <img loading="lazy" src="./img/git.png" alt="icono control de versiones Git">
+                                </picture>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="contenedor-projects framework">
+                    <a href="https://github.com/Br4y4nmt/sistemainventario1" target="_blank">
+                        <div class="imagen-projects">
+                            <picture>
+                                <source loading="lazy" srcset="./img/sistemainventario.webp" type="image/webp">
+                                <img loading="lazy" src="./img/sistemainventario.jpg" alt="imagen de proyecto de Blog de café">
+                            </picture>
+                        </div>
+                        <div class="texto-projects">
+                            <h4>Sistema de inventario</h4>
+                            <p class="description">Sistema de inventario, muy completo</p>
+                            <div class="iconos after">
+                                <picture>
+                                    <source loading="lazy" srcset="./img/html-5.webp" type="img/webp">
+                                    <img loading="lazy" src="./img/html-5.png" alt="icono HTML">
+                                    <source loading="lazy" srcset="./img/css-3.webp" type="img/webp">
+                                    <img loading="lazy" src="./img/css-3.png" alt="icono CSS">
+                                    <source loading="lazy" srcset="./img/git.webp" type="img/webp">
+                                    <img loading="lazy" src="./img/git.png" alt="icono control de versiones Git">
+                                </picture>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+               
+            </div>
+        </section>
+
+
+    </main>
+
+    <section class="habilidades" id="habilidades">
+        <h3>Habilidades</h3>
+        <div class="contenedor-skill">
+            <picture>
+                <source loading="lazy" srcset="./img/html-5.webp" type="img/webp">
+                <img loading="lazy" src="./img/html-5.png" alt="icono HTML">
+                <source loading="lazy" srcset="./img/css-3.webp" type="img/webp">
+                <img loading="lazy" src="./img/css-3.png" alt="icono CSS">
+                <source loading="lazy" srcset="./img/java-script.webp" type="img/webp">
+                <img loading="lazy" src="./img/java-script.png" alt="icono JavaScript">
+                <source loading="lazy" srcset="./img/react.webp" type="img/webp">
+                <img loading="lazy" src="./img/react.png" alt="icono de ReactJS">
+                <source loading="lazy" srcset="./img/Wordpress.webp" type="img/webp">
+                <img loading="lazy" src="./img/Wordpress.png" alt="icono de WordPress">
+                <source loading="lazy" srcset="./img/php.webp" type="img/webp">
+                <img loading="lazy" src="./img/php.png" alt="icono de PHP">
+                <source loading="lazy" srcset="./img/git.webp" type="img/webp">
+                <img loading="lazy" src="./img/git.png" alt="icono control de versiones Git">
+
+                  
+   
+            </picture>
+        </div>
+    </section>
+
+    <section class="seccion-about" id="about">
+        <h3>Un poco más sobre mí</h3>
+        <article class="before after-about">
+            <p>Soy <strong>Brayan</strong>!!,Estudiante de la universidad de Huanuco, de la carrera ingenieria de sistemas e informatica, soy una persona muy conpetitiva y dedicada.
+                Soy una persona una persona dedicada en lo que hago, especialmente si es relacionado a mi carrera. Me gustan los retos, asi que estoy preparado para lo que me traiga el futuro.</p>
+        </article>
+    </section>
+
+    <section class="contacto" id="contacto">
+        <h3>Trabajemos juntos!!</h3>
+        <form action="https://formsubmit.co/medina_5_5@hotmail.com" method="POST" class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="email">E-mail</label>
+                <input class="campo__field" type="email" name="email" id="email" placeholder="correo@correo.com">
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="mensaje">Mensaje</label>
+                <textarea class="campo__field campo__field--textarea" name="mensaje" placeholder="Quiero trabajar contigo..." id="mensaje"></textarea>
+            </div>
+            <div class="campo text-center">
+                <input class="boton-contacto" type="submit" value="Enviar">
+
+                <input type="hidden" name="_next" value="http://localhost/repositorio/">
+                <input type="hidden" name="_captcha" value="false">
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="barra-footer">
+            <a class='logo footer' href='/' id='piePagina'>
+                <picture>
+                    <source loading="lazy" srcset="./img/logo.webp" type="image/webp">
+                    <img loading="lazy" src="img/logo.png" alt="imagen de logo de la marca">
+                </picture>
+            </a>
+            <p>
+                <em>Cuéntame tu idea y juntos lo haremos posible!!</em> <br> Developed by <strong>Brayan</strong>
+            </p>
+            <nav>
+                <a class="git" href="https://github.com/Br4y4nmt" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                  </svg>
+            </a>
+                <a class="lk" href="https://www.linkedin.com/in/brayan-junior-medina-tixe-381aa12b1/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                    <path d="M8 11l0 5" />
+                    <path d="M8 8l0 .01" />
+                    <path d="M12 16l0 -5" />
+                    <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                  </svg>
+            </a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="js/app.js" type="module"></script>
+    <script src="js/filter.js" type="module"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</body>
+
+</html>
